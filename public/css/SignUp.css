@@ -16,23 +16,6 @@ header {
     padding: 20px;
 }
 
-/* Logos */
-.logo {
-    width: 150px;
-    height: auto;
-    filter: drop-shadow(0 0 10px rgba(0, 183, 255, 0.5));
-}
-
-.logo-left {
-    top: 20px;
-    left: 20px;
-    height: 125px;
-    width: 125px;
-}
-.logo-right {
-    top: 20px;
-    right: 20px;
-}
 
 .project-name {
     font-size: 50px !important;
