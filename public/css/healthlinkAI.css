@@ -63,8 +63,6 @@ body {
     }
 }
 
-
-/* AI Analysis Button */
 /* AI Analysis Button */
 #ai-analysis-btn {
     position: absolute;
@@ -82,6 +80,13 @@ body {
 }
 #ai-analysis-btn:hover {
     background: #52e0c4;
+}
+
+@media (max-width: 381px) {
+    #ai-analysis-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    }
 }
 
 /* Popup Window */
@@ -129,4 +134,53 @@ input[type="file"] {
 }
 #analyze-btn:hover, #close-popup:hover {
     background: #52e0c4;
+}
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+    .popup {
+        width: 90%; /* Reduce width for smaller screens */
+        padding: 15px;
+    }
+
+    textarea {
+        height: 70px;
+        font-size: 14px;
+    }
+
+    #analyze-btn, #close-popup {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    #ai-response {
+        font-size: 14px;
+    }
+}
+
+/* Phones (480px and below) */
+@media (max-width: 480px) {
+    .popup {
+        width: 80%;
+        padding: 12px;
+        border-radius: 8px;
+    }
+
+    .popup-content {
+        gap: 8px;
+    }
+
+    textarea {
+        height: 60px;
+        font-size: 13px;
+    }
+
+    #analyze-btn, #close-popup {
+        padding: 7px;
+        font-size: 13px;
+    }
+
+    #ai-response {
+        font-size: 13px;
+    }
 }
