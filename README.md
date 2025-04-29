@@ -45,7 +45,7 @@ Modern healthcare systems often lack immediate AI-powered diagnosis support, acc
 | Backend      | Node.js, Express.js                |
 | Database     | MongoDB Atlas                      |
 | Authentication | JWT & Cookies                   |
-| AI Integration | OpenAI API (mocked) / HuggingFace |
+| AI Integration | OpenAI API |
 | Hosting      | Render.com                         |
 
 ---
