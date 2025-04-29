@@ -1,6 +1,6 @@
 # 🩺 HealthLink – AI-Powered Healthcare Companion
 
-**HealthLink** is a web-based healthcare platform built for the **Build with AI Hackathon by GDG On Campus – WCE Sangli**. It empowers users with smart, AI-integrated services like symptom checking, appointment booking, health report analysis, and an intuitive dashboard experience for patients and doctors.
+**HealthLink** is a web-based healthcare platform. It empowers users with smart, AI-integrated services like symptom checking, appointment booking, health report analysis, and an intuitive dashboard experience for patients and doctors.
 
 ---
 
@@ -34,7 +34,6 @@ Modern healthcare systems often lack immediate AI-powered diagnosis support, acc
 > _"Integrating AI to make healthcare more responsive, personalized, and accessible."_
 
 - 🤖 **Chatbot & Report Analysis** simulate GPT-based interaction using pre-defined responses
-- 🧬 **(Optional)**: HuggingFace API setup available for health report summarization *(commented due to API limits)*
 
 ---
 
